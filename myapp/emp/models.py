@@ -8,3 +8,5 @@ class Emp(models.Model):
     address = models.CharField(max_length=150)
     working = models.BooleanField(default=True)
     department = models.CharField(max_length=10)
+
+    
